@@ -6,7 +6,7 @@ public class Livro {
 	private String titulo;
 	private String isbn;
 	private double preco;
-	private Date dataPublicacao;
+	private String dataPublicacao;
 	
 	
 	public String getTitulo() {
@@ -27,10 +27,10 @@ public class Livro {
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
-	public Date getDataPublicacao() {
+	public String getDataPublicacao() {
 		return dataPublicacao;
 	}
-	public void setDataPublicacao(Date dataPublicacao) {
+	public void setDataPublicacao(String dataPublicacao) {
 		this.dataPublicacao = dataPublicacao;
 	}
 	
