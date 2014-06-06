@@ -23,12 +23,13 @@
 				<h:outputLabel value="Data Publicação" for="dataPublicacao" />
 				<h:inputText value="#{livroBean.livro.dataPublicacao}"
 					id="dataPublicacao" size="10" maxlength="10">
-					 <f:convertDateTime locale="pt,BR" dateStyle="long" pattern="dd/MM/yyyy"/>    
+					 <f:convertDateTime locale="pt,BR" dateStyle="long" pattern="dd/MM/yyyy"/>  
+					 
 				</h:inputText>
 				<h:commandButton action="#{livroBean.salvarAluno}" value="Salvar" />
 			</h:panelGrid>
 		</fieldset>
-
+		
 	</h:form>
 </h:body>
 </html>
