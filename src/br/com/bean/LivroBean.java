@@ -13,9 +13,9 @@ public class LivroBean {
 	
 	public void salvarAluno(){
 		System.out.println("####### Salvando o Aluno #########");
-		System.out.println("Titulo: "+livro.getTitulo());
+		System.out.println("Titulo: "+livro.getNmeLivro());
 		System.out.println("Preço: "+livro.getPreco());
-		System.out.println("Data Publicação: "+livro.getDataPublicacao());
+		System.out.println("Data Publicação: "+livro.getDtaPublicacao());
 	}
 
 	public Livro getLivro() {
